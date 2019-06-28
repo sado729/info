@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{{ asset('/app/css/normalize.css') }}"/>
+<link rel="stylesheet" href="{{ asset('/app/css/pageloader.css') }}"/>
+<link rel="stylesheet" href="{{ asset('/app/css/ionicons.min.css') }}"/>
+<link rel="stylesheet" href="{{ asset('/app/css/foundation.min.css') }}"/>
+<link rel="stylesheet" href="{{ asset('/app/css/jquery.fullPage.css') }}"/>
+<link rel="stylesheet" href="{{ asset('/app/css/vegas.min.css') }}"/>
+<link rel="stylesheet" href="{{ asset('/app/css/main.css') }}"/>
+<link rel="stylesheet" href="{{ asset('/app/css/main_responsive.css') }}"/>
+<link rel="stylesheet" href="{{ asset('/app/css/style-color1.css') }}"/>
