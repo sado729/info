@@ -9,7 +9,7 @@ class IndexController extends Controller
 {
     protected function index()
     {
-        $news = News::all();
+        $news = News::listActive();
 
         return view('app.index',compact('news'));
     }

@@ -34,7 +34,7 @@ class News extends Model
 
     public static function listActive()
     {
-        return static::where('active', 1);
+        return static::where('status', 1)->orderByDesc('created_at')->get();
     }
 
     public function setCreatedAtAttribute($value)

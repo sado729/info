@@ -7,7 +7,7 @@
     </div>
     <ul id="qmenu" class="qmenu">
         <li>
-            <a href="#home" class=""><i class="icon ion ion-home"></i>
+            <a href="#home" class="" data-id="1"><i class="icon ion ion-home"></i>
             </a>
             <span class="title">Ana Səhifə</span>
         </li>

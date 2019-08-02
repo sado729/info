@@ -25,7 +25,7 @@
     <!-- <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgb(59, 59, 59)"></div> -->
 
     <!-- Solid color as filter -->
-    <div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(0, 0, 0, 0.41)"></div>
+    <div class="cover-bg-mask pos-abs full-size bg-color"></div>
 
 </div>
 <!--END OF site Cover -->

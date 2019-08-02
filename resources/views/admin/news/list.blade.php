@@ -56,14 +56,13 @@
                             {{ csrf_field() }}
                             @include('admin.include.filter',['route'=>'news.admin.index'])
                             <div class="table-responsive-sm bt-switch col-md-12 container my-2">
-                              <table class="table table-sm table-bordered table-hover table-striped text-center" id="nestable" data-url="{{ route('news.admin.sort') }}">
+                              <table class="table table-responsive table-sm table-bordered table-hover table-striped text-center" id="nestable" data-url="{{ route('news.admin.sort') }}">
                                     <thead>
                                         <tr role="row" class="even">
                                             <th></th>
                                             <th>Seç</th>
                                             <th>Nömrə</th>
                                             <th>Adı</th>
-                                            <th>Link adı</th>
                                             <th>Tarix</th>
                                             <th>Status</th>
                                             <th>Dəyiş</th>
@@ -81,7 +80,6 @@
                                             </td>
                                             <td>{{ $news->id }}</td>
                                             <td>{{ $news->name }}</td>
-                                            <td>{{ $news->slug }}</td>
                                             <td>{{ $news->created_at }}</td>
                                             <td>
                                                 <input class="my_check" type="checkbox"{{ ($news->status=='1') ? ' checked' : '' }} data-on-color="success"

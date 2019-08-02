@@ -14,9 +14,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        if ($this->app->isLocal()) {
-            $this->app->register(TelescopeServiceProvider::class);
-        }
     }
 
     /**
@@ -26,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Schema::defaultStringLength('255');
+        Schema::defaultStringLength(191);
         date_default_timezone_set('Asia/Baku');
     }
 }

@@ -154,7 +154,7 @@
             </div>
 
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-6">
                     <div class="card">
                         <div class="card-header">Popular Listings
@@ -343,9 +343,9 @@
 
                     </div>
                 </div>
-            </div><!--End Row-->
+            </div>
 
-
+-->
 
         </div>
         <!-- End container-fluid-->

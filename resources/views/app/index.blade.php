@@ -42,18 +42,22 @@
 
         $('ul#qmenu li>a').on('click', function () {
             var fieldid = $(this).data('id');
-            $.ajax({
-                type: 'post',
-                url: '/bloq/type',
-                data: {
-                    '_token': csrf,
-                    'id': fieldid
-                },
-                dataType: 'json',
-                success: function(data) {
-                    $('.fp-tableCell section.content .row').html(data.news);
-                }
-            });
+
+            if(fieldid!=0 && fieldid<4){
+                $.ajax({
+                    type: 'post',
+                    url: '/bloq/type',
+                    data: {
+                        '_token': csrf,
+                        'id': fieldid
+                    },
+                    dataType: 'json',
+                    success: function(data) {
+                        $('.fp-tableCell section.content .row').html(data.news);
+                    }
+                });
+            }
+            
         });
 
         document.querySelector('.close').addEventListener('click',function () {

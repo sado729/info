@@ -41,16 +41,9 @@
                                             <div class="row">
                                                 <div class="form-group col-md-4">
                                                     <label for="name-{{ $code }}" class="col-form-label">Ad</label>
-                                                    <input type="text" class="form-control" placeholder="Ad" id="name-{{ $code }}" name="name:{{ $code }}" maxlength="100">
+                                                    <input type="text" class="form-control" placeholder="Ad" id="name-{{ $code }}" name="name:{{ $code }}">
                                                 </div>
-                                                <div class="form-group col-md-4">
-                                                    <label for="type" class="col-form-label">Tip seç</label>
-                                                    <select name="type" id="type" class="form-control">
-                                                        <option value="1">Əmrlər</option>
-                                                        <option value="2">Ad günləri</option>
-                                                        <option value="3">Tədbir</option>
-                                                    </select>
-                                                </div>
+                                                
                                                 <div class="form-group col-md-12">
                                                     <label for="editor1">Mətn</label>
                                                     <textarea name="text:{{ $code }}" id="editor1"></textarea>
@@ -58,7 +51,16 @@
                                             </div>
                                         </div>
                                     @endforeach
+
                                     <div class="row">
+                                        <div class="form-group col-md-4">
+                                        <label for="type" class="col-form-label">Tip seç</label>
+                                        <select name="type" id="type" class="form-control">
+                                            <option value="1">Əmrlər</option>
+                                            <option value="2">Ad günləri</option>
+                                            <option value="3">Tədbir</option>
+                                        </select>
+                                    </div>
                                         <div class="form-group col-md-4">
                                             <label for="file">
                                                 Qalereya Şəkilləri <i>[CTRL basılı saxlayıb bir neçəsini seçə bilərsiniz]</i>
