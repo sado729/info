@@ -64,38 +64,38 @@ class PermissionsTableSeeder extends Seeder
             ),
             9 => 
             array (
+                'id' => 16,
+                'name' => 'manage_logo',
+            ),
+            10 => 
+            array (
                 'id' => 6,
                 'name' => 'manage_menu',
             ),
-            10 => 
+            11 => 
             array (
                 'id' => 4,
                 'name' => 'manage_news',
             ),
-            11 => 
+            12 => 
             array (
                 'id' => 11,
                 'name' => 'manage_partner',
             ),
-            12 => 
+            13 => 
             array (
                 'id' => 7,
                 'name' => 'manage_product',
             ),
-            13 => 
+            14 => 
             array (
                 'id' => 2,
                 'name' => 'manage_settings',
             ),
-            14 => 
+            15 => 
             array (
                 'id' => 15,
                 'name' => 'manage_slider',
-            ),
-            15 => 
-            array (
-                'id' => 16,
-                'name' => 'manage_logo',
             ),
             16 => 
             array (
